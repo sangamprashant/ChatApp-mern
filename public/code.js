@@ -1,6 +1,6 @@
 (function () {
   const app = document.querySelector(".app");
-  const socket = io("https://chat-app-sand-two.vercel.app/socket.io");
+  const socket = io("/");
   let uname;
 
   // You have a typo here: "clicl" should be "click"
