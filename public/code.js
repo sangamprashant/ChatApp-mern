@@ -1,6 +1,6 @@
 (function () {
   const app = document.querySelector(".app");
-  const socket = io();
+  const socket = io("/public");
   let uname;
 
   // You have a typo here: "clicl" should be "click"
